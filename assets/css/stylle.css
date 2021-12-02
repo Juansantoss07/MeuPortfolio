@@ -14,6 +14,7 @@ div.cabecalho{
     justify-content: center;
     height: 3rem;
     background-color: aliceblue;
+    width: 100%;
 }
 div.cabecalho ul{
     display: flex;
@@ -85,7 +86,9 @@ div.section-one-box-two{
     justify-content: space-around;
 }
 .foto-perfil{
-    border-radius: 120px;
+    border-radius: 150px;
+    width: 100%;
+    height: 100%;
 }
 div.section-one-box-two i{
     font-size: 40px;
@@ -360,8 +363,8 @@ footer{
         height: 10%;
     }
     div.foto img{
-        width: 300px;
-        height: 150px;
+        width:100%;
+        height:90%;
         border-radius: 10px;
         transition: 0.5s;
     }
@@ -415,7 +418,7 @@ footer{
         max-width: 90%;
     }
     div.foto-box-two{
-        width: 80%;
+        width: 100%;
     }
     div.section-two-one-box{
         width: 80%;
@@ -467,8 +470,8 @@ footer{
         height: 10%;
     }
     div.foto img{
-        width: 250px;
-        height: 100px;
+        width: 100%;
+        height: 90%;
         border-radius: 10px;
         transition: 0.5s;
     }

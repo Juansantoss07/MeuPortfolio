@@ -255,3 +255,102 @@ footer{
     transition: 0.5s;
     color: black;
 }
+
+@media (max-width:479px){
+    div.cabecalho{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 12px;
+    }
+    .section-one, .section-one-box, .section-one-box-two{
+        display: flex;
+        flex-direction: column;
+    }
+    section.section-one{
+        background-image: none;
+        width: 100%;
+        height: 100%;
+    }
+    div.section-one-box {
+        flex-direction: column;
+        width: 100%;
+        align-items: flex-start;
+        padding: 0;
+    }
+    div.section-one-box-two{
+        width: 100%;
+        padding: 0;
+    }
+    section.section-two{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    div.section-two-box{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    div.section-two-box p{
+        max-width: 90%;
+    }
+    div.foto-box-two{
+        width: 100%;
+    }
+    div.section-two-one-box{
+        width: 100%;
+    }
+    section.section-three{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+    div.section-three-box-one, div.section-three-box-two{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    section.section-four{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    div.section-four-box-one{
+        width: 100%;
+    }
+    div.galeria{
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+        height: 100%;
+    }
+    div.foto{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    section.section-final{
+        width: 100%;
+        height: 30%;
+    }
+    div.foto img{
+        width: 280px;
+        height: 150px;
+        border-radius: 10px;
+        transition: 0.5s;
+    }
+    footer{
+        text-align: center;
+    }
+}

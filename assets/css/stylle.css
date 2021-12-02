@@ -373,3 +373,119 @@ footer{
         text-align: center;
     }
 }
+@media (max-width:349px){
+    section.section-one{
+        background-image: none;
+        width: 80%;
+        height: 100%;
+    }
+    div.section-one-box {
+        flex-direction: column;
+        width: 80%;
+        align-items: flex-start;
+        margin-top: 3rem;
+    }
+    div.section-one-box-two{
+        width: 80%;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+    }
+    div.links-sociais{
+        display: flex;
+        flex-direction: row;
+    }
+    section.section-two{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    div.section-two-box{
+        width: 80%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    div.section-two-box p{
+        max-width: 90%;
+    }
+    div.foto-box-two{
+        width: 80%;
+    }
+    div.section-two-one-box{
+        width: 80%;
+    }
+    section.section-three{
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        height: 100%;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    div.section-three-box-one, div.section-three-box-two{
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        height: 100%;
+    }
+    #subtitulo-mobile{
+        width: 250px;
+    }
+    section.section-four{
+        width: 90%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+    div.section-four-box-one{
+        width: 80%;
+        align-items: flex-start;
+    }
+    div.galeria{
+        display: flex;
+        flex-direction: column;
+        width: 80vw;
+        height: 100%;
+        justify-content: space-around;
+    }
+    div.foto{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    section.section-final{
+        width: 80%;
+        height: 10%;
+    }
+    div.foto img{
+        width: 250px;
+        height: 100px;
+        border-radius: 10px;
+        transition: 0.5s;
+    }
+    div.foto img:hover{
+        width: 300px;
+        height: 100px;
+    }
+    footer{
+        text-align: center;
+    }
+    div.cabecalho{
+        width: 100%;
+        display: flex;
+        position: fixed;
+        z-index: 100;
+        align-items: center;
+        justify-content: center;
+        font-size: 14px;
+    }
+}
